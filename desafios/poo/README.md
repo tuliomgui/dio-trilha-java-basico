@@ -1,3 +1,26 @@
 # Teste do diagrama de classes no Mermaid
 
-[![](https://mermaid.ink/img/pako:eNptksFugzAMhl8F5US19gU4TKq2yw6rqnXaYeLiJi5YDTEySbW16rsvFKhgNJck1o-__ye-KM0GVaa0haZ5JSgEqtwlcdG2ZIfJavWcfGAtbIJneQ8NabAzxboGQVvyJ1o8sCPNM8kGTliAYXlzHsWh7xQ38KC7dLV2dafrWDSzMdY_edYg6WJUqSE0_0pN9KeJHfQt0p0XckVS3W6LB9B5sgnVUhERfRcXKhQe88CjMzj1QLEJgbywCBJ_8Tl9xJ39rgkWf2hPsoWC3D1DEDtBG-qSbvgE6z2kU18BLJ1haDE4UEsVI1RAJs7EDZgrX2KFucri0YAcc5W7VgfxIXa_TqvMS8ClEg5FqbID2CbeQm1i9n6g7tUa3DdzNXyChtrH7Cew3a5_FEDRhg?type=png)](https://mermaid.live/edit#pako:eNptksFugzAMhl8F5US19gU4TKq2yw6rqnXaYeLiJi5YDTEySbW16rsvFKhgNJck1o-__ye-KM0GVaa0haZ5JSgEqtwlcdG2ZIfJavWcfGAtbIJneQ8NabAzxboGQVvyJ1o8sCPNM8kGTliAYXlzHsWh7xQ38KC7dLV2dafrWDSzMdY_edYg6WJUqSE0_0pN9KeJHfQt0p0XckVS3W6LB9B5sgnVUhERfRcXKhQe88CjMzj1QLEJgbywCBJ_8Tl9xJ39rgkWf2hPsoWC3D1DEDtBG-qSbvgE6z2kU18BLJ1haDE4UEsVI1RAJs7EDZgrX2KFucri0YAcc5W7VgfxIXa_TqvMS8ClEg5FqbID2CbeQm1i9n6g7tUa3DdzNXyChtrH7Cew3a5_FEDRhg)
+```mermaid
+classDiagram
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+    class iPhone {
+        
+    }
+    class ReprodutorMusical {
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
+    }
+    class AparelhoTelefonico {
+        +ligar(String numero)
+        +atender()
+        +iniciarCorreioVoz()
+    }
+    class NavegadorInternet {
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+```
