@@ -1,2 +1,3 @@
-# Repositório dio-trilha-java-basico
-Repositório criado para entrega dos desafios propostos no Bootcamp Santander 2024 - Backend com Java da DIO.me
+# Desafio Criando um Banco Digital com Java e Orientação a Objetos
+
+Repositório criado para entrega do projeto _Desafio Criando um Banco Digital com Java e Orientação a Objetos_ do Bootcampo DIO
